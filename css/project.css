@@ -1,0 +1,105 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* begin side bar */
+.sidebar{
+    width: 33vw;
+    height: 100%;
+    position: absolute;
+    z-index: -10;
+    background-color: #D82C2E;
+}
+
+/* end side bar */
+/* begin return button */
+.return{
+    position: absolute;
+    z-index: 1;
+    bottom: 18px;
+    left: 18px;
+}
+.fa-arrow-circle-left{
+    font-size: 30px;
+    color: white;
+}
+/* end return butten */
+
+
+
+/* begin projectDetails */
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5em;
+}
+.projectTitel h2{
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+.projectInfo{
+    margin-top: 5em;
+}
+.projectBeschrijving p{
+    line-height: 25px;
+    width: 600px;
+
+}
+.projectBeschrijving{
+    margin-bottom: -5px;
+}
+strong{
+    letter-spacing: 1.2px;
+}
+.lighttext{
+    font-weight: 400;
+}
+.projectTitel {
+    margin-bottom: -20px;
+}
+.slides{
+    margin-left: 14.5vw;
+    margin-top: 21.5vh;
+}
+.link{
+    background-color: #D82C2E;
+    color: white;
+    padding: 16px 24px;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    border: 1px solid #D82C2E;
+}
+.link:hover{
+    background: rgb(223, 44, 47);
+    transition: .7s ease;
+  
+}
+
+.fa-github-square{
+    font-size: 35px;
+     color: black;
+     margin-right: 8px;
+}
+
+.fa-linkedin{
+    font-size: 35px;
+    color: black;
+    margin-bottom: 50px;
+    margin-left: 8px;
+
+}
+
+
+/* end projectDetails */
+
+
+/* begin responsive */
+@media screen and (max-width: 768px) {
+  html{
+      overflow-y: hidden;
+  }
+}
+/* end responsive */
